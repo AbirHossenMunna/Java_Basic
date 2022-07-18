@@ -24,22 +24,22 @@ Write a program to enter the numbers till the user wants and at the end, the pro
 
 Solved
 
-FindLetter
+AtmBooth
 
-FindGrade
-
-DecimalNumbers
-
-BoothCollection
-
-SumOfNumbers
+DecimalNumber
 
 FactorialNumbers
 
+FindGrade
+
+LargestOrSmallest
+
 PrimeNumbers
 
-RandomNumbers
+RandomNumber
 
-UserInput
+SmallOrCapital 
 
-LargeOrSmall
+SumOfNumbers
+
+SumOfUsersInputs 
