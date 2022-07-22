@@ -2,44 +2,33 @@ Java Basic Problem
 
 Question
 
-Write a program to check if inputted letter is small or capital
+1. Extract the transaction ID from the HTML body
+<html>
+<title>Test</title>
+<body>
+Your trnx is successful. Trnx Id is: TXN123456
+</body>
+</html>
+Output: TXN123456
+2. Price of a formal shirt is 1200 tk and Sharee is 3500 tk. If you buy 2 shirt and 1 sharee, then 400 tk will be discounted. After your purchase what will be your total cost?
+3. Core i 7 HP laptop price is 76000 tk and cash payment discount 10%. What will be the purchase price?
 
-Write a program to calculate GPA and find grade
+4. Writea program that will give following output:
+Input: chattogram
+Output: C8M
 
-Input 2 decimal numbers and check if they are both same or different up to two decimal places. E.g 120.546 & 120.241
+5. Write a program that will count how many vowels in the given string:
+"roadtosdet"
+Output: 4
 
-Write a program to check balance and withdraw money from ATM booth using if else or switch case
+6. Replace "R" from Rahim with "F" from the given String:
+Input: Ratul and Rahim lives in Rangpur
+Output: Ratul and Fahim lives in Rangpur
 
-Write a program to sum of numbers which only divisible by 5 from 1 to 100
+7. Find out how many images are in the given array:
+["photo1.jpg", "doc1.pdf", "doc2.docx", "photo2.png", "doc3.pdf", "msoffice.exe", "photo3.jpg"]
+Output: 3
 
-Write a program to find the factorial of a given number
-
-Write a program to print prime numbers from 2 to n
-
-Write a program to generate 2 random numbers which will not be shown to the user. Take a user input and match it with any of the random numbers. If correct give it 1 point and if incorrect, do not give it any point. Finally, repeat this for 10 times and count the point user achieved.
-
-Write a program to sum of user input until users input ‘q’ from keyboard
-
-Write a program to enter the numbers till the user wants and at the end, the program should display the largest and smallest numbers user entered.
-
-Solved
-
-AtmBooth
-
-DecimalNumber
-
-FactorialNumbers
-
-FindGrade
-
-LargestOrSmallest
-
-PrimeNumbers
-
-RandomNumber
-
-SmallOrCapital 
-
-SumOfNumbers
-
-SumOfUsersInputs 
+8. Write a program to convert each 1st char to uppercase from a string
+Input: rahim lives in sylhet
+Output: Rahim Lives in Sylhet
