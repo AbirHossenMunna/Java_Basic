@@ -1,45 +1,34 @@
-Java Basic Problem
+Java FunctionArray Problem
 
 Question
 
-Write a program to check if inputted letter is small or capital
+1. Take input from a user and check if the number exists in the array
+let the array is [1,3,5,7,2,4,6,8]
+Input: 7
+Output: Found in the position 3
+Input: 9
+Output: Found no element
 
-Write a program to calculate GPA and find grade
+2. Input an amount from the user and find out the number of notes from input amount in given array
+[1000,500,100,50,20,10,5,2,1]
+Input: 1256
+Output: 
+1000 1
+100 2
+50 1
+2 3
 
-Input 2 decimal numbers and check if they are both same or different up to two decimal places. E.g 120.546 & 120.241
 
-Write a program to check balance and withdraw money from ATM booth using if else or switch case
+3. Suppose, in a company , here are some employee salaries in an array
+[35000, 25000, 28000, 32500, 44000, 32800]
+Find out the 3rd highest salary
 
-Write a program to sum of numbers which only divisible by 5 from 1 to 100
 
-Write a program to find the factorial of a given number
+4. Create your todays bazar list/pocket expenditure which includes the item name and price. Then create a function named searchItem(String item) which will be used to search any item from your HashMap and return the price. If found no item, then print message as "No item found" and another function named totalSum() which will return total price of items.
 
-Write a program to print prime numbers from 2 to n
 
-Write a program to generate 2 random numbers which will not be shown to the user. Take a user input and match it with any of the random numbers. If correct give it 1 point and if incorrect, do not give it any point. Finally, repeat this for 10 times and count the point user achieved.
+5. Take 5 numbers from users in an array. Then find out the average number, how many even and how many odd numbers using these functions: average(), countEvenNumbers(), countOddNumbers()
 
-Write a program to sum of user input until users input ‘q’ from keyboard
 
-Write a program to enter the numbers till the user wants and at the end, the program should display the largest and smallest numbers user entered.
+6. Suppose a software system excepts valid credentials from user to logged in to the system. if the user inputs wrong password for 3 times, system will say that "Your user has been temporary locked". Let the username: admin, password: adm1n
 
-Solved
-
-AtmBooth
-
-DecimalNumber
-
-FactorialNumbers
-
-FindGrade
-
-LargestOrSmallest
-
-PrimeNumbers
-
-RandomNumber
-
-SmallOrCapital 
-
-SumOfNumbers
-
-SumOfUsersInputs 
