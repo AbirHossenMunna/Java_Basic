@@ -4,13 +4,21 @@ Question
 
 1. Extract the transaction ID from the HTML body
 <html>
+  
 <title>Test</title>
+  
 <body>
+  
 Your trnx is successful. Trnx Id is: TXN123456
+  
 </body>
+  
 </html>
+
 Output: TXN123456
+
 2. Price of a formal shirt is 1200 tk and Sharee is 3500 tk. If you buy 2 shirt and 1 sharee, then 400 tk will be discounted. After your purchase what will be your total cost?
+
 3. Core i 7 HP laptop price is 76000 tk and cash payment discount 10%. What will be the purchase price?
 
 4. Writea program that will give following output:
