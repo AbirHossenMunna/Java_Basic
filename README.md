@@ -12,16 +12,21 @@ System>Input options.
 Option a:
 
 User> Unit Testing
+
 Option b:
 
 User> Integration Testing
+
 Option c:
 
 User> Sanity Testing
+
 Option d:
 
 User> Regression Testing
+
 System> Please input the correct ans
+
 User> a
 
 System: Quiz saved at the database. Do you want to add more? (y/n)
