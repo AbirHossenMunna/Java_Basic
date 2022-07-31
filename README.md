@@ -55,18 +55,28 @@ JSON Format:
 [
 {
 "Question":"Which testing is done by developer?",
+
 "option a":"Unit Testing",
+
 "Option b":"Integration Testing",
+
 "Sanity Testing":"Sanity Testing",
+
 "Option d":"Regression Testing",
+
 "answer":"a"
 },
 {
 "Question":"Which is functional testing?",
+
 "option a":"Load Testing",
+
 "Option b":"Security Testing",
+
 "Sanity Testing":"Gorilla Testing",
+
 "Option d":"Benchmark Testing",
+
 "answer":"c"
 }
 ]
