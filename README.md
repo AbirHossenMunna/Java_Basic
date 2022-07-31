@@ -10,6 +10,7 @@ System>Please add a ques here:
 User>Which testing is done by developer?
 System>Input options.
 Option a:
+
 User> Unit Testing
 Option b:
 
@@ -22,16 +23,19 @@ Option d:
 User> Regression Testing
 System> Please input the correct ans
 User> a
+
 System: Quiz saved at the database. Do you want to add more? (y/n)
 if user press y, then the previous scenario will happen again otherwise the program will be closed.
 
 If user select option 2,  then,
+
 System> You will be asked 5 questions, each questions has 1 marks
 1. Which testing is done by developer?
 a. Unit Testing
 b. Integration Testing
 c. Sanity Testing
 d. Regression Testing
+
 User> a
 System> Correct!
 else not correct,
