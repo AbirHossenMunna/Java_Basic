@@ -6,32 +6,34 @@ import java.util.Scanner;
 
 public class PrimeNumbers {
     public static void main(String[] args) {
-        try {
-            int i = 0;
-            int num = 0;
-            //Empty String
-            String primeNumbers = "";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the limit for finding the prime numbers");
+        int n=sc.nextInt();
+        //2  is always a prime number
+        System.out.println("The prime numbers are : ");
+        System.out.print(2+"  ");
 
-            Scanner input = new Scanner(System.in);
-            System.out.println("Enter Your number:");
-            int n = input.nextInt();
-
-            for (i = 1; i <= n; i++) {
-                int counter = 0;
-                for (num = i; num >= 1; num--) {
-                    if (i % num == 0) {
-                        counter = counter + 1;
-                    }
-                }
-                if (counter == 2) {
-                    //Appended the Prime number to the String
-                    primeNumbers = primeNumbers + i + " ";
+        int i =3;
+        while(i<=n){
+            boolean flag=true;
+            //checking if its an even number
+            if(i%2==0){
+                flag=false;
+            }
+            //only checking the odd numbers being prime or not
+            //looped till the square root of the number for efficiency
+            for(int j=3;j<=Math.sqrt(i);j+=2){
+                if(i%j==0){
+                    flag=false;
+                    break;
                 }
             }
-            System.out.println("Prime numbers from 1 to 100 are :");
-            System.out.println(primeNumbers);
-        } catch (Exception e) {
-            System.out.println("Enter valid Numbers");
+            if(flag==true){
+                System.out.print(i+"  ");
+
+            }
+
+            i++;
         }
     }
 }
