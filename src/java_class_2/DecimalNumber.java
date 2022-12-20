@@ -2,27 +2,30 @@
 
 package java_class_2;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class DecimalNumber {
     public static void main(String[] args) {
-        System.out.println("Two Decimal Value Check");
-        try {
-            Scanner input = new Scanner(System.in);
-            double number_1;
-            double number_2;
-
-            System.out.println("Enter First Number: ");
-            number_1 = input.nextDouble();
-            System.out.println("Enter Second Number: ");
-            number_2 = input.nextDouble();
-            if (number_1 == number_2) {
-                System.out.println("Both Number are same");
-            } else {
-                System.out.println("Both Number are Different");
+        Random random=new Random();
+        int limit=50;
+        //generating random number from 1-50
+        int firstRandom=random.nextInt(limit);
+//        System.out.println("first random number"+firstRandom);
+        int secondRandom=random.nextInt(limit);
+//        System.out.println("second random number"+secondRandom);
+        int points=0;
+        int i=1;
+        Scanner sc=new Scanner(System.in);
+        //prompting user to guess to guess the number 10 times
+        while(i<=10) {
+            System.out.println("Guess the number between 1-50!");
+            int number=sc.nextInt();
+            if(number==firstRandom || number==secondRandom){
+                points+=1;
             }
-        } catch (Exception e) {
-            System.out.println("Enter valid number");
+            i+=1;
         }
+        System.out.println("Your score is "+points);
     }
 }
