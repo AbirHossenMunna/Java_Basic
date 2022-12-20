@@ -6,46 +6,27 @@ import java.util.Scanner;
 
 public class AtmBooth {
     public static void main(String[] args) {
-        int amount = 10000, withdraw, deposit, num;
-        Scanner input = new Scanner(System.in);
-        while (true){
-            System.out.println("********Welcome to ATM Service**************");
-            System.out.println("1. Withdraw Balance");
-            System.out.println("2. Deposit Balance");
-            System.out.println("3. Check Balance");
-            System.out.println("4. Exit");
-            System.out.println("Enter Your option: ");
-            num = input.nextInt();
-            switch (num) {
-                case 1:
-                    System.out.println("Enter Amount to be withdraw");
-                    withdraw = input.nextInt();
-                    if (amount >= withdraw) {
-                        amount = amount - withdraw;
-                        System.out.println("Balance amount is:   " + amount);
-                        System.out.println("Please Collect money");
-                    } else {
-                        System.out.println("You don't have enough money for withdraw");
-                    }
-                    System.out.println("   ");
-                    break;
-                case 2:
-                    System.out.println("Enter Amount to deposit");
-                    deposit = input.nextInt();
-                    amount = amount + deposit;
-                    System.out.println("Balance amount is:   " + amount);
-                    System.out.println("money has ben deposit successfully");
-                    System.out.println(" ");
-                    break;
-                case 3:
-                    System.out.println("Balance amount is:   " + amount);
-                    System.out.println("money has ben deposit successfully");
-                    System.out.println(" ");
-                    break;
-                case 4:
-                    System.exit(0);
-                    System.out.println("  ");
-            }
+        Double balance = 50000.0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What do you want to do? Balance or Withdrawal?\n" +
+                "Press 1 for checking available balance\n" +
+                "Press 2 for Withdrawing money");
+        int input = sc.nextInt();
+        switch (input) {
+            //displaying available balance
+            case 1:
+                System.out.println("Available balance: " + balance);
+                break;
+            //displaying available balance after withdrawing
+            case 2:
+                System.out.println("How much do you want to Withdraw?");
+                int withdraw = sc.nextInt();
+                balance -= withdraw;
+                System.out.println("Withdrawal Amount: " + withdraw);
+                System.out.println("Available balance: " + balance);
+                break;
+            default:
+                System.out.println("Invalid input given");
         }
     }
 }
